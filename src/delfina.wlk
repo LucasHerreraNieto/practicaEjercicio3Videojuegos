@@ -1,4 +1,5 @@
 import consolas.*
+import videojuegos.*
 
 object delfina {
 	
@@ -12,6 +13,7 @@ object delfina {
 	}
 	
 	method jugar(videojuego){
-		
+		nivelDiversion += videojuego.diversionQueOtorga(consolaEnMano)
+		consolaEnMano.usar()
 	}
 }
