@@ -12,9 +12,9 @@ object portatil{
 	
 	var bateriaBaja = false
 	
-	method jugabildiad(){
-		if(bateriaBaja){return 8 }
-		else{return 1}
+	method jugabilidad(){
+		if(bateriaBaja){return 1 }
+		else{return 8}
 	}
 	method usar(){
 		bateriaBaja = true 

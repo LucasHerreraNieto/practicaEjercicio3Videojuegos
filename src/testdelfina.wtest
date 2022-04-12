@@ -1,0 +1,10 @@
+import delfina.*
+import consolas.*
+import videojuegos.*
+
+test "test de jugar de defina" {
+
+	assert.that(true)
+	delfina.jugar(arkanoid)
+	assert.equals(50,delfina.diversion())
+}
